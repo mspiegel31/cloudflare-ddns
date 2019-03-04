@@ -7,12 +7,17 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage"
   },
   "author": "Mike Spiegel",
   "license": "ISC",
   "dependencies": {
     "cloudflare": "^2.4.1",
-    "rc": "^1.2.8"
+    "rc": "^1.2.8",
+    "semver": "^5.6.0"
+  },
+  "devDependencies": {
+    "jest": "^24.3.1",
+    "yargs": "^13.2.2"
   }
 }

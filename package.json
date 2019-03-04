@@ -1,0 +1,18 @@
+{
+  "name": "cloudflare-ddns",
+  "version": "1.0.0",
+  "description": "a small ddns script for use with cloudflare",
+  "engines": {
+    "node": ">=11.1.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike Spiegel",
+  "license": "ISC",
+  "dependencies": {
+    "cloudflare": "^2.4.1",
+    "rc": "^1.2.8"
+  }
+}

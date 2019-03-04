@@ -1,0 +1,12 @@
+{
+    "updateFrequency": "10",
+    "credentials": {
+        "email": "you@email.com",
+        "key": "cloudflare-api-key"
+    },
+    "zones": [
+        {
+            "name": "foo.bar.net",
+        }
+    ]
+}
